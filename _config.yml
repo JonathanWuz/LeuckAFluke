@@ -1,0 +1,8 @@
+remote_theme: pages-themes/minimal
+plugins:
+- jekyll-remote-theme
+title: "Inventory Tracker Website"
+description: "We will change this text eventually!"
+gitorg: "https://github.com/aidenhyunh/leuckblewup"
+show_downloads: true
+google_analytics:

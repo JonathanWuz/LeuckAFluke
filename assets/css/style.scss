@@ -1,0 +1,61 @@
+---
+---
+
+img {
+  overflow:auto;
+}
+
+header {
+  position:relative
+}
+
+footer {
+  position: fixed;
+}
+
+.navbar {
+  text-align:center;
+  height: 40px;
+  padding: 0;
+  background: #f4f4f4;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  width: 270px;
+  border-collapse:separate;
+  border-spacing:0px;
+  table-layout: fixed;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar td {
+  text-align:center;
+  border: 1px solid #e0e0e0;
+}
+
+.navbar td:hover {
+  background-color:rgb(224, 224, 224);
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  transition: background-color 0.2s;
+}
+
+@import "{{ site.theme }}";
+
+/* "row style" is flexible size and aligns pictures in center */
+.row {
+    align-items: center;
+    display: flex;
+  }
+  
+  /* "column style" is one-third of the width with padding */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
